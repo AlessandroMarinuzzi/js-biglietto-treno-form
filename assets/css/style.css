@@ -1,0 +1,9 @@
+body{
+    background-color: fuchsia;
+}
+
+/* utility classes */
+.bg_white{
+    background-color: white;
+}
+/* /utility classes */
