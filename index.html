@@ -17,25 +17,26 @@
             <div class="row">
                 <div class="col-4 d-flex flex-column">
                     <div class="text-center mb-2">Name Surname</div>
-                    <input type="text" name="fullname" id="fullname" class="rounded">
+                    <input type="text" name="fullname" id="fullname" class="rounded border_colour">
                 </div>
 
                 <div class="col-4 d-flex flex-column">
                     <div class="text-center mb-2">Km to travel for</div>
-                    <input type="text" name="distance" id="distance" class="rounded">
+                    <input type="text" name="distance" id="distance" class="rounded border_colour">
                 </div>
 
                 <div class="col-4 d-flex flex-column">
                     <div class="text-center mb-2">Age Range</div>
-                    <select name="age" id="age" class="rounded">
+                    <select name="age" id="age" class="rounded border_colour">
                         <option value="underage">Underage</option>
                         <option value="of age">Of Age</option>
+                        <option value="over 65">Over 65</option>
                     </select>
                 </div>
 
                 <div class="mx-auto mt-5">
-                    <input type="submit" value="Generate" class="text_colour">
-                    <button class="btn text_colour">Cancel</button>
+                    <button id="generate" class="rounded text_colour font-weight-bold bg_lightgrey border_purple">Generate</button>
+                    <button id="cancel" class="rounded text_colour font-weight-bold bg_lightgrey">Cancel</button>
                 </div>
             </div>
         </form>
@@ -49,27 +50,27 @@
                 <div id="ticket" class="d-flex justify-content-around border-top border-bottom border-secondary mb-5">
                     <div class="col d-flex flex-column bg_grey">
                         <h5 class="text-uppercase pt-4">Passenger Name</h5>
-                        <h4 id="passengerName" class="font-weight-bold pb-5">Pippo</h4>
+                        <h4 id="passengerName" class="font-weight-bold pb-5"></h4>
                     </div>
     
                     <div class="col d-flex flex-column">
                         <h5 class="pt-4 pb-5">Offers</h5>
-                        <div id="discount">Discount</div>
+                        <div id="discount"></div>
                     </div>
     
                     <div class="col d-flex flex-column">
                         <h5 class="pt-4 pb-5">Carriage</h5>
-                        <div id="carriage">7</div>
+                        <div id="carriage"></div>
                     </div>
     
                     <div class="col d-flex flex-column">
                         <h5 class="pt-4 pb-5">CP Code</h5>
-                        <div id="trainCode">97298</div>
+                        <div id="trainCode"></div>
                     </div>
     
                     <div class="col d-flex flex-column">
                         <h5 class="pt-4 pb-5">Ticket Cost</h5>
-                        <div id="ticketPrice">31 £</div>
+                        <div id="ticketPrice"></div>
                     </div>
                 </div>
 

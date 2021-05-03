@@ -2,6 +2,15 @@ body{
     background-color: #b91450;
 }
 
+#generate, 
+#cancel {
+    transition: 0.30s;
+}
+
+#generate:active, #cancel:active {
+    background-color: #b91450;
+    color: white;
+}
 /* utility classes */
 .bg_white{
     background-color: white;
@@ -9,8 +18,17 @@ body{
 .bg_grey{
     background-color: #808080;
 }
+.bg_lightgrey{
+    background-color: #cccccc;
+}
 .text_colour{
     color: #b91450;
+}
+.border_colour {
+    border: 1px solid #b91450;
+}
+.border_purple{
+    border: 2px solid purple;
 }
 /* /utility classes */
 
