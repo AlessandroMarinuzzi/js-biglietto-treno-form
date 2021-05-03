@@ -1,9 +1,16 @@
 body{
-    background-color: fuchsia;
+    background-color: #b91450;
 }
 
 /* utility classes */
 .bg_white{
     background-color: white;
 }
+.bg_grey{
+    background-color: #808080;
+}
+.text_colour{
+    color: #b91450;
+}
 /* /utility classes */
+
